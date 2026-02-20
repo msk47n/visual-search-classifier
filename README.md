@@ -2,12 +2,42 @@
 
 ## Overview
 
-This project trains 3 machine learning models to classify visual search images into categories based on the presence or absence of target objects.
-These models are: Multi-Layered Perceptron (MLP), Support Vector Machine (SVM) with gaussian kernal function, and Convolutional Neural Network (CNN).
-
-The models were trained using Python, sklearn and TensorFlow in Google Colab.
+This project implements and compares three machine learning models (MLP, SVM, and CNN) to classify visual search images based on target presence. The goal is to evaluate the performance of different model architectures on the same dataset.
 
 ## Example Input / Output
 
 ### Example 1
+
+Input:
+![Example input](examples/stimulus_ss_4.png)
+
+Output:
+Predicted class: Target present 
+
+### Example 2
+
+Input:
+![Example input](examples/stimulus_ss_8.png)
+
+Output:
+Predicted class: Target absent
+
+### Results
+
+MLP:
+![Result_1](results/mlp result.png)
+
+SVM:
+![Result_2](results/SVM result.png)
+
+CNN:
+![Result_3](results/CNN result.png)
+
+## Notes
+
+This project was developed as part of a course project. The code reflects the experimental workflow used during development.
+
+## Author
+
+Saad Khan
 

@@ -40,6 +40,15 @@ CNN:
 Shaded region represents 95% confidence intervals. The plot shows accuracy over different kernel sizes tested for a CNN model.
 
 
+## Results Summary
+
+The CNN achieved the highest classification accuracy, followed by the SVM, while the MLP had the lowest accuracy.
+
+One likely reason for CNN's superior performance is its ability to process images in their original spatial structure. Unlike MLP and SVM, which operate on flattened image vectors, CNNs preserve spatial relationships between pixels. This allows CNNs to learn meaningful spatial features relevant to visual search tasks.
+
+The SVM outperformed the MLP, likely due to its use of a non-linear decision boundary, which enables it to better separate complex patterns and maintain robustness to noise in high-dimensional input space.
+
+
 ## Notes
 
 This project was developed as part of a course project. The code reflects the experimental workflow used during development.

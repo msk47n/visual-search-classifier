@@ -25,13 +25,13 @@ Predicted class: Target absent
 ### Results
 
 MLP:
-![Result_1](results/mlp result.png)
+![Result_1](results/mlp_result.png)
 
 SVM:
-![Result_2](results/SVM result.png)
+![Result_2](results/SVM_result.png)
 
 CNN:
-![Result_3](results/CNN result.png)
+![Result_3](results/CNN_result.png)
 
 ## Notes
 

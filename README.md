@@ -22,7 +22,7 @@ Input:
 Output:
 Predicted class: Target absent
 
-### Results
+## Results
 
 MLP:
 ![Result_1](results/mlp_result.png)

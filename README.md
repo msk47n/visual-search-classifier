@@ -27,11 +27,18 @@ Predicted class: Target absent
 MLP:
 ![Result_1](results/mlp_result.png)
 
+Shaded region represents 95% confidence intervals. The plot shows accuracy over different features tested for an MLP model.
+
 SVM:
 ![Result_2](results/SVM_result.png)
 
+The bright yellow colour represents high accuracy. The plot shows accuracy with varying c and gamma parameters of an SVM model.
+
 CNN:
 ![Result_3](results/CNN_result.png)
+
+Shaded region represents 95% confidence intervals. The plot shows accuracy over different kernel sizes tested for a CNN model.
+
 
 ## Notes
 
